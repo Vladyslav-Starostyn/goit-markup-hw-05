@@ -273,17 +273,35 @@ body {
     letter-spacing: 0.03em;
     color: var(--color-title);
     margin-bottom: 50px;
-
 }
-
 .activyti-list {
     display: flex;
 }
-
 .imedges+.imedges {
     margin-left: 30px;
 }
-
+.activyti-card {
+    position: relative;
+}
+.activyti-text {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 370px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.8),
+        rgba(47, 48, 58, 0.8)
+    );
+}
 /*------------section-4-----------*/
 
 .command-section {
